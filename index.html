@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calorie Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="forma">
+            <div class="age">
+                <h3>Age</h3>
+                <input type="text" id="godine" placeholder="Your Age?" required>
+            </div>
+
+            <div class="gender">
+                <h3>Gender</h3>
+                <div class="radio">
+                    <input type="radio" name="gender" value="male" id="radio1" required>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="female" id="radio2" required>
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="height">
+            <h3>Height</h3>
+                <input type="text" id="visina" placeholder="Your Height(cm)" required>
+            </div>
+
+            <div class="weight">
+            <h3>Weight</h3>
+                <input type="text" id="masa" placeholder="Your Weight(kg)" required>
+            </div>
+
+            <div class="select">
+                <h3>Activities</h3>
+                <select name="activities" class="activities-number">                    
+                    <option value="light">Exercise 1-3 times/week</option>
+                    <option value="moderate">Exercise 4-5 times/week</option>                
+                    <option value="active">Exercise 6-7 times/week</option>               
+                    <option value="very active">Daily intense exercise</option>                   
+                </select>
+            </div>
+            
+            <button class="calculate">Calculate</button>
+            <button class="restart">Restart</button>
+        </div>
+        <div class="poruka">
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

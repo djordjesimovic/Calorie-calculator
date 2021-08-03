@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, rgb(255, 241, 41), rgb(251, 140, 81));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Patrick Hand";
+}
+.calculator{
+    height: 97vh;
+    width: 40%;
+    background-color: rgba(255, 255, 255, .7);
+    position: relative;
+}
+.forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* min-height: 10vh; */
+    padding: 20px;
+}
+.age{
+    margin-bottom: 5px;
+    width: 60%;
+    text-align: center;
+}
+.age h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.age input{
+    font-family: "Patrick Hand";
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 5vh;
+    font-size: 20px;
+}
+.age input:focus{
+    outline: 0;
+}
+.gender{
+    margin-bottom: 5px;
+    width: 60%;
+}
+.gender .radio{
+    text-align: center;
+    font-size: 22px;
+}
+.gender h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.height{
+    margin-bottom: 5px;
+    width: 60%;
+    text-align: center;
+}
+.height h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.height input{
+    font-family: "Patrick Hand";
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 5vh;
+    font-size: 20px;
+}
+.height input:focus{
+    outline: 0;
+}
+.weight{
+    margin-bottom: 5px;
+    width: 60%;
+    text-align: center;
+}
+.weight h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.weight input{
+    font-family: "Patrick Hand";
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 5vh;
+    font-size: 20px;
+}
+.weight input:focus{
+    outline: 0;
+}
+.select h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.select select{
+    font-family: "Patrick Hand";
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 5vh;
+    font-size: 20px;
+}
+.select select:focus{
+    outline: 0;
+}
+.calculate{
+    font-size: 25px;
+    font-family: "Patrick Hand";
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.calculate:hover{
+    background: linear-gradient(to right, rgb(255, 241, 41), rgb(251, 140, 81));
+    border: 1px solid rgba(255, 255, 255, .7);
+    transition: 0.3s;
+    color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+}
+.calculate:focus{
+    outline: 0;
+}
+.restart{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Patrick Hand";
+    text-align: center;
+    bottom: 5.5%;
+    right: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.restart:hover{
+    transition: 0.3s;
+    color: rgba(255, 255, 255, .95);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    background-color: rgb(209, 0, 0);
+}
+.restart:focus{
+    outline: 0;
+}
+.close{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Patrick Hand";
+    text-align: center;
+    bottom: 5.5%;
+    right: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.close:hover{
+    transition: 0.3s;
+    color: rgba(255, 255, 255, .95);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .95);
+    background-color: rgb(209, 0, 0);
+}
+.close:focus{
+    outline: 0;
+}
+.calculator .poruka{
+    position: absolute;
+    height: 60vh;
+    width: 160%;
+    top: 20%;
+    left: -28%;
+    background-color:rgba(255, 255, 255, .95);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 5vh;
+    padding: 5px;
+    border: 1px solid black;
+}
